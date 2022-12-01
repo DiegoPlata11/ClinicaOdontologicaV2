@@ -1,0 +1,17 @@
+DEBUG   2022-11-23 12:30:38,366 [http-nio-8084-exec-2] com.example.ClinicaOdontologicaV2.controller.DentistController  - Odontologo actualizado en base de Datos
+WARN    2022-11-23 12:31:17,182 [http-nio-8084-exec-3] com.example.ClinicaOdontologicaV2.controller.DentistController  - Intentando actualizar un dentist no existente
+DEBUG   2022-11-23 12:59:21,112 [http-nio-8084-exec-2] com.example.ClinicaOdontologicaV2.controller.DentistController  - Todos los Odontologos eliminados en base de Datos
+DEBUG   2022-11-23 15:48:21,449 [http-nio-8084-exec-3] com.example.ClinicaOdontologicaV2.controller.DentistController  - Odontologo creado correctamente en base de Datos
+DEBUG   2022-11-23 15:49:06,530 [http-nio-8084-exec-9] com.example.ClinicaOdontologicaV2.controller.DentistController  - Odontologo actualizado en base de Datos
+DEBUG   2022-11-23 15:49:25,311 [http-nio-8084-exec-2] com.example.ClinicaOdontologicaV2.controller.DentistController  - Odontologo eliminado en base de Datos
+DEBUG   2022-11-23 15:49:33,085 [http-nio-8084-exec-6] com.example.ClinicaOdontologicaV2.controller.DentistController  - Todos los Odontologos eliminados en base de Datos
+DEBUG   2022-11-25 11:26:51,360 [http-nio-8084-exec-10] com.example.ClinicaOdontologicaV2.controller.PatientController  - Paciente actualizado en base de Datos
+DEBUG   2022-11-25 11:27:41,321 [http-nio-8084-exec-3] com.example.ClinicaOdontologicaV2.controller.PatientController  - Paciente eliminado en base de Datos
+DEBUG   2022-11-25 11:31:44,999 [http-nio-8084-exec-4] com.example.ClinicaOdontologicaV2.controller.PatientController  - Todos los pacientes eliminados en base de Datos
+DEBUG   2022-11-30 10:16:02,916 [http-nio-8084-exec-2] com.example.ClinicaOdontologicaV2.controller.DentistController  - Dentist updated in database
+DEBUG   2022-11-30 10:17:31,322 [http-nio-8084-exec-7] com.example.ClinicaOdontologicaV2.controller.DentistController  - Dentist updated in database
+DEBUG   2022-11-30 10:19:05,593 [http-nio-8084-exec-3] com.example.ClinicaOdontologicaV2.controller.DentistController  - Dentist updated in database
+DEBUG   2022-11-30 16:19:30,081 [http-nio-8084-exec-8] com.example.ClinicaOdontologicaV2.controller.PatientController  - Paciente eliminado en base de Datos
+WARN    2022-11-30 16:31:45,979 [http-nio-8084-exec-9] com.example.ClinicaOdontologicaV2.controller.PatientController  - Intentando actualizar un paciente no existente
+DEBUG   2022-11-30 16:32:41,200 [http-nio-8084-exec-1] com.example.ClinicaOdontologicaV2.controller.PatientController  - Paciente eliminado en base de Datos
+DEBUG   2022-11-30 16:33:04,454 [http-nio-8084-exec-9] com.example.ClinicaOdontologicaV2.controller.PatientController  - Todos los pacientes eliminados en base de Datos
