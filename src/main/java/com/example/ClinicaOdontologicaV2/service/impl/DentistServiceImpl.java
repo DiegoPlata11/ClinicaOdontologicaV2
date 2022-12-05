@@ -25,10 +25,15 @@ public class DentistServiceImpl implements DentistService {
     @Override
     public Optional<DentistDto> find(Integer id) {
         ObjectMapper mapper = new ObjectMapper();
-        Optional<Dentist> dentist = dentistRepository.findById(id);
-        Optional<DentistDto> dentistDto;
-        dentistDto = Optional.of(mapper.convertValue(dentist, DentistDto.class));
-        return dentistDto;
+        DentistDto dentistDto;
+        Dentist dentist = null;
+        Optional<Dentist> optionalDentist = dentistRepository.findById(id);
+
+        if (optionalDentist.isPresent()){
+            dentist = optionalDentist.get();
+        }
+        dentistDto = mapper.convertValue(dentist, DentistDto.class);
+        return Optional.of(dentistDto);
     }
 
     @Override
